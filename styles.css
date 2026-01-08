@@ -157,5 +157,28 @@ main{
     font-weight: 700;
 }
 .brain-container .second-brain2{
-    color: red;
+    color: #627382;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 16px;
+    margin-bottom: 40px;
+}
+.brain-container .small-quotes{
+    color: #001931;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px;
+}
+.brain-container .small-quotes .small-images-blue{
+    height: 20px;
+    width: 20px;
+}
+.almost-end .almost-end2{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #F7F6F2;
+    border-radius: 10px;
 }
