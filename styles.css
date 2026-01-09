@@ -245,7 +245,7 @@ main{
 .line{
     border: none;
     height: 1px;
-    background-color:aliceblue;
+    background-color:rgb(146, 202, 146);
     margin-bottom: 60px;
 }
 .copyright{
