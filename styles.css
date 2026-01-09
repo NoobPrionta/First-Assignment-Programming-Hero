@@ -35,6 +35,7 @@ nav .Home{
     color: white;
     border-radius: 4px;
     font-weight: 600;
+    cursor: pointer;
 }
 .hero-section{
     display: flex;
@@ -52,6 +53,7 @@ nav .Home{
     border-radius: 1000px;
     border: none;
     padding: 8px auto;
+    cursor: pointer;
 }
 .structure .structure-thinking{
     color: white;
@@ -81,6 +83,7 @@ nav .Home{
     align-items: center;
     border-radius: 8px;
     font-size: 16px;
+    cursor: pointer;
 }
 .start-button img{
     height: 16px;          
@@ -95,6 +98,7 @@ nav .Home{
     border: 1px solid white;
     border-radius: 8px;
     color: white;
+    cursor: pointer;
 }
 main{
     background-image: url("./assets/hero-bg.png") ;
@@ -195,7 +199,8 @@ main{
 }
 .last-destination1{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 1140px;
     padding: 120px 0;
     color: white;
     align-items: center;
@@ -207,14 +212,26 @@ main{
 }
 .line{
     border: none;
-    height: 2px;
+    height: 1px;
     background-color:aliceblue;
     margin-bottom: 60px;
 }
 .copyright{
     display: flex;
     justify-content: center;
-    padding-bottom: 40px;
+    padding-bottom: 25px;
     font-size: 16px;
     color: white;
+}
+.sobuj-button .my-button{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.sobuj-button1{
+    height: 20px;
+    width: 20px;
 }
