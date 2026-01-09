@@ -116,7 +116,7 @@ main{
 }
 .Notes{
     text-align: center;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 .Notes p{
     margin-top: 10px;
@@ -210,6 +210,17 @@ main{
         background-color: #001931;
         margin-top: 120px;
 }
+.last-destination .social-links{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+}
+.last-destination .last-destination1 .foot-icons{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+}
 .line{
     border: none;
     height: 1px;
@@ -228,8 +239,8 @@ main{
     align-items: center;
     gap: 8px;
     padding: 12px 20px;
-  font-size: 16px;
-  cursor: pointer;
+    font-size: 16px;
+    cursor: pointer;
 }
 .sobuj-button1{
     height: 20px;
