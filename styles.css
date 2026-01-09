@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 body{
     font-family: 'Inter', sans-serif;
@@ -9,7 +10,8 @@ body{
 nav{
     display: flex;
     justify-content: space-between;
-    text-align: center;
+    align-items: center;
+    max-width: 1800px;
 }
 nav .Home ul{
     list-style: none;
@@ -53,8 +55,7 @@ nav .Home{
     max-width: 770px;
 }
 .my-button-1{
-    color: var(--#afc9ba, rgba(70, 145, 101, 1));
-    background-color: #b9e7cc;
+    background-color: #90cfaa;
     font-weight: 500;
     font-size: 16px;
     width: 229px;
@@ -64,7 +65,7 @@ nav .Home{
     padding: 8px auto;
     cursor: pointer;
 }
-.my-button-1{
+.my-button-1:hover{
     background-color: #8fb2d4;
     color: #1F2937;
 }
