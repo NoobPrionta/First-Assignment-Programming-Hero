@@ -18,6 +18,11 @@ nav .Home ul{
     font-weight: 500;
     font-size: 16px;
     margin: 30px;
+    cursor: pointer;
+}
+nav .Home ul li:hover{
+    background-color: #8fb2d4;
+    color: #1F2937;
 }
 .container{
     max-width: 1600px;
@@ -37,6 +42,10 @@ nav .Home{
     font-weight: 600;
     cursor: pointer;
 }
+.my-button:hover{
+    background-color: #8fb2d4;
+    color: #1F2937;
+}
 .hero-section{
     display: flex;
     flex-direction: column;
@@ -54,6 +63,10 @@ nav .Home{
     border: none;
     padding: 8px auto;
     cursor: pointer;
+}
+.my-button-1{
+    background-color: #8fb2d4;
+    color: #1F2937;
 }
 .structure .structure-thinking{
     color: white;
@@ -84,6 +97,10 @@ nav .Home{
     border-radius: 8px;
     font-size: 16px;
     cursor: pointer;
+}
+.start-button .my-button2:hover{
+    background-color: #8fb2d4;
+    color: #1F2937;
 }
 .start-button img{
     height: 16px;          
@@ -220,6 +237,9 @@ main{
     gap: 10px;
     flex-direction: column;
     align-items: center;
+}
+.last-destination .last-destination1 .foot-icons .foot-icons1{
+    cursor: pointer;
 }
 .line{
     border: none;
